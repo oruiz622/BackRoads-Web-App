@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: CONTENFUL_SPACE_ID,
+        spaceId: CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: CONTENTFUL_ACCESS_TOKEN,
       },
